@@ -42,9 +42,9 @@ set wildignore+=*/target/**
 let g:ctrlp_by_filename = 0
 
 "NERDTree
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | wincmd z | wincmd . | endif
+"autocmd vimenter * NERDTree
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | wincmd z | wincmd . | endif
 
 " Bindings
 inoremap <Nul> <C-x><C-u>
